@@ -1,0 +1,9 @@
+extends layout
+
+block content
+  h2 Edit Student
+  form(method="POST")
+    input(name="name" value=student.name)
+    input(name="marks" value=student.marks)
+    input(name="cgpa" value=student.cgpa)
+    button(type="submit") Update

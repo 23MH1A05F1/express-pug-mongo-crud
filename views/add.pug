@@ -1,0 +1,9 @@
+extends layout
+
+block content
+  h2 Add Student
+  form(method="POST")
+    input(name="name" placeholder="Name")
+    input(name="marks" type="number")
+    input(name="cgpa" type="number")
+    button(type="submit") Save

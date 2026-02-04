@@ -1,0 +1,10 @@
+{
+  "all": true,
+  "include": ["controllers/**/*.js", "routes/**/*.js"],
+  "reporter": ["text", "html"],
+  "check-coverage": true,
+  "lines": 100,
+  "functions": 100,
+  "branches": 100,
+  "statements": 100
+}
